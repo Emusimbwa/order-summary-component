@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+}
+.main{
+    width: 1200px;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container{
+    width: 240px;
+    background: #fff;
+    padding-bottom: 2rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.content{
+    flex-grow: 1;
+    display: flex;
+    width: calc(100% - 2.5rem);
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+}
+.content h1{
+    font-size: 18px;
+    padding: 1rem;
+}
+.content p{
+    font-size: smaller;
+    font-size: 12px;
+    color: gray;
+}
+.icon-achat{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    margin-top: 1rem;
+    background: rgba(128, 128, 128, 0.051);
+    border-radius: 5px;
+    padding:1rem;
+    font-size: 12px;
+    justify-content: space-between;
+}
+.icon-music{
+    width: 30px;
+}
+.button-payment{
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: .5rem 0;
+    border-radius: 8px;
+    border: 1px solid hsl(245, 75%, 52%);
+    box-shadow: 0 2px 3px hsl(245, 75%, 52%);
+    cursor: pointer;
+    margin: 1rem 0;
+}
+.cancel {
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
